@@ -37,33 +37,6 @@
             padding: 0 20px;
         }
         
-        /* 返回按钮 */
-        .back-btn {
-            position: fixed;
-            top: 20px;
-            left: 20px;
-            z-index: 100;
-            background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            border-radius: 50%;
-            width: 50px;
-            height: 50px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #fff;
-            font-size: 1.2rem;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            text-decoration: none;
-        }
-        
-        .back-btn:hover {
-            background: rgba(255, 255, 255, 0.2);
-            transform: translateX(-3px);
-        }
-        
         /* 折叠控制面板 */
         .control-toggle {
             position: fixed;
@@ -658,11 +631,8 @@
                 font-size: 2.2rem;
             }
             
-            .back-btn, .control-toggle {
-                top: 15px;
-            }
-            
             .control-toggle {
+                top: 15px;
                 right: 15px;
             }
             
@@ -714,11 +684,6 @@
     </style>
 </head>
 <body>
-    <!-- 返回按钮 -->
-    <a href="index.html" class="back-btn">
-        <i class="fas fa-arrow-left"></i>
-    </a>
-    
     <!-- 折叠控制面板 -->
     <div class="control-toggle" id="controlToggle">
         <i class="fas fa-sliders-h"></i>
@@ -867,34 +832,12 @@
             <div class="cards-grid">
                 <div class="glass-card feature-card">
                     <div class="feature-icon">
-                        <i class="fas fa-trophy"></i>
+                        <i class="fas fa-calendar-check"></i>
                     </div>
-                    <h3 class="feature-title">2026阅读挑战</h3>
-                    <p class="feature-description">设定您的年度阅读目标，追踪阅读进度，解锁成就徽章。与社群成员共同完成12个月的主题阅读计划。</p>
-                    <a href="reading_challenge_2026.html" class="feature-link">
-                        参与挑战 <i class="fas fa-arrow-right"></i>
-                    </a>
-                </div>
-                
-                <div class="glass-card feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-calendar-alt"></i>
-                    </div>
-                    <h3 class="feature-title">元旦书友会</h3>
-                    <p class="feature-description">1月1日线上特别活动，与作家、学者共同探讨"时间与文学"主题。包含作者访谈、读者讨论和书单分享环节。</p>
-                    <a href="https://yswxstudy.my.canvasite.cn/1119/#%E5%8A%A0%E5%85%A5%E7%A4%BE%E7%BE%A4" target="_blank" class="feature-link">
-                        查看详情 <i class="fas fa-arrow-right"></i>
-                    </a>
-                </div>
-                
-                <div class="glass-card feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-pen-nib"></i>
-                    </div>
-                    <h3 class="feature-title">新年创作坊</h3>
-                    <p class="feature-description">鼓励成员从读者变为作者。提供写作指导、作品互评和发表机会，记录您2026年的思想轨迹与创作历程。</p>
-                    <a href="https://yswxstudy.my.canvasite.cn/wcyl/" target="_blank" class="feature-link">
-                        开始创作 <i class="fas fa-arrow-right"></i>
+                    <h3 class="feature-title">2026阅读计划制定</h3>
+                    <p class="feature-description">选择推荐书单或自定义你的专属阅读计划，生成精美卡片保存分享，开启有序而充实的2026阅读之旅。</p>
+                    <a href="zdjh.html" class="feature-link">
+                        开始制定 <i class="fas fa-arrow-right"></i>
                     </a>
                 </div>
             </div>
